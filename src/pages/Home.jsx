@@ -1,7 +1,7 @@
 import '../App.css';
 const Home = () => {
   return (
-   <div className="home">
+   <div className="">
       <div className="max-w-3xl mx-auto">
         
         {/* Heading */}

@@ -9,6 +9,7 @@ import Dashboard from './pages/Dashboard.jsx'
 import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import Register from './pages/Register.jsx'
+import Blog from './pages/Blog.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -19,6 +20,9 @@ createRoot(document.getElementById('root')).render(
       <Route path='login' element={<Login/>} />
       <Route path='profile' element={<Profile/>} />
       <Route path='register' element={<Register/>} />
+      <Route path='blog' element={<Blog/>} />
     </Routes>
   </BrowserRouter>
 )
+
+// ok now you tell me how to install tailwind and how to use  i forgot and i try again to learn well  in my project then we goto the next steps that you suggest me . you just tell me go to tailwindwebsite this this ... don't give me command to paste it i want to learn where i find it 

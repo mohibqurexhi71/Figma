@@ -27,21 +27,21 @@ function Login() {
 
 
   return (
-    <div className="container">
-  <div className="card">
-    <h2>Login</h2>
+    <div className="flex justify-center items-center bg-gray-200 h-screen">
+  <div className="bg-white p-8 rounded-xl shadow-md w-[300px] h-60"  >
+    <h2 className='text-center text-2xl font-bold mb-7'>Login</h2>
 
-    <div className="input-group">
-      <label>Email</label>
-      <input name="email" value={formData.email} onChange={handleChange} />
+    <div className="flex flex-col mb-4">
+      <label className='mb-7 text-sm '>Email</label>
+      <input className='border p-2 rounded-md' name="email" value={formData.email} onChange={handleChange} />
     </div>
 
-    <div className="input-group">
-      <label>Password</label>
-      <input type="password" name="password" value={formData.password} onChange={handleChange}/>
+    <div className="flex flex-col mb-4">
+      <label className='text-sm mb-2'>Password</label>
+      < input className='border p-5 m-5 rounded-md' type="password" name="password" value={formData.password} onChange={handleChange}/>
     </div>
 
-    <button className="btn" onClick={handleSubmit}>Login</button>
+    <button className="w-20 bg-purple-600 text-white rounded-md hover:bg-purple-800 m-5 p-5" onClick={handleSubmit}>Login</button>
   </div>
 </div>
   )
